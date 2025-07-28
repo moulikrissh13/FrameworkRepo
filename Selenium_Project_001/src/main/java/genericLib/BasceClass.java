@@ -9,12 +9,26 @@ public class BasceClass {
 	
 	@BeforeClass
 	public void openBrowserTest() {
-		System.out.println("Browser Opened");
+		
+		/*below line for receive data from command line, if forgot try to capture from test script*/
+		
+		String browser = System.getProperty("browser","chrome");
+		
+		System.out.println("Browser Opened"+browser);
 	}
 	
 	@AfterClass
 	public void closewBrowserTest() {
-		System.out.println("Browser Closed");
+		
+		/*below 2 lines for receive data from command line, if not try to capture from test script*/
+		
+		String username = System.getProperty("usernname","moulikrissh13");
+		
+		String password = System.getProperty("usernname","12345678");
+		
+		System.out.println("Browser Closed"+username);
+		
+		System.out.println("Browser Closed"+password);
 	}
 	
 	@BeforeMethod
