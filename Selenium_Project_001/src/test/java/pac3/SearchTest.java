@@ -2,7 +2,9 @@ package pac3;
 
 import org.testng.annotations.Test;
 
-public class SearchTest {
+import genericLib.BasceClass;
+
+public class SearchTest extends  BasceClass {
 	
 	@Test
 	public void createSearchTest() {

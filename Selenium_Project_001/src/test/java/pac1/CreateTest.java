@@ -2,7 +2,9 @@ package pac1;
 
 import org.testng.annotations.Test;
 
-public class CreateTest {
+import genericLib.BasceClass;
+
+public class CreateTest extends  BasceClass{
 
 	
 	@Test

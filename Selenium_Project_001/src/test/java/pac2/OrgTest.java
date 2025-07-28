@@ -2,7 +2,9 @@ package pac2;
 
 import org.testng.annotations.Test;
 
-public class OrgTest {
+import genericLib.BasceClass;
+
+public class OrgTest extends  BasceClass {
 	@Test
 	public void createOrgTest() {
 		
