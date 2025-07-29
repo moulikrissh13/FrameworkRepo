@@ -22,9 +22,9 @@ public class BasceClass {
 		
 		/*below 2 lines for receive data from command line, if not try to capture from test script*/
 		
-		String username = System.getProperty("usernname","moulikrissh13");
+		String username = System.getProperty("username","moulikrissh13");
 		
-		String password = System.getProperty("usernname","12345678");
+		String password = System.getProperty("password","12345678");
 		
 		System.out.println("Browser Closed"+username);
 		
